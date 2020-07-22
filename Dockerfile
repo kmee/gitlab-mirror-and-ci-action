@@ -1,4 +1,4 @@
-FROM makocchi/alpine-git-curl-jq:latest
+FROM makocchi/alpine-bash-curl-jq-git-python-ssh:latest
 
 LABEL "com.github.actions.name"="Mirror to GitLab and run GitLab CI"
 LABEL "com.github.actions.description"="Automate mirroring of git commits to GitLab, trigger GitLab CI and post results back to GitHub"
